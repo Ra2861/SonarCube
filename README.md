@@ -16,9 +16,9 @@ Oferece uma Edição Comunitária gratuita e de código aberto, juntamente com v
 
 **Preparar o Ambiente SonarQube:**
 
-Instale o Java e o Docker. Recomenda-se o uso do Docker, uma abordagem popular atualmente, e o Java SDK é necessário para o funcionamento do SonarScanner.
-Configure uma aplicação de exemplo para análise com o SonarQube.
-Executar a Análise do Projeto com o SonarQube:
+Instalamos o Java e o Docker. Recomenda-se o uso do Docker, uma abordagem popular atualmente, e o Java SDK é necessário para o funcionamento do SonarScanner.
+Configuramos uma aplicação de exemplo para análise com o SonarQube.
+Executamos a Análise do Projeto com o SonarQube:
 
 Inicie o servidor SonarQube com o comando docker run.
 Instale o SonarScanner para .NET Core e execute a análise de código.
@@ -26,7 +26,10 @@ Resultados da Análise no SonarQube:
 
 Visualize as informações principais do SonarQube acessando a URL http://localhost:9000, onde o container Docker do SonarQube está exposto. Essa visualização apresenta informações gerais, como contadores de bugs, vulnerabilidades e problemas de código, além de duplicações de código.
 
-Esta visualização apresenta informações gerais, como contadores de bugs, vulnerabilidades e número de duplicações de código. É a visão mais simples: métricas simples.<br/>
+Esta visualização apresenta informações gerais, como contadores de bugs, vulnerabilidades e número de duplicações de código. 
+
+Essa é a visão mais simples: 
+
 ![image](https://github.com/Ra2861/SonarCube/assets/99209068/9465d617-7a48-4905-a934-bbae0fbcbe23)<br/>
 
 Relatórios mais detalhados da seção Medidas: <br/>
